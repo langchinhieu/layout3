@@ -1,0 +1,82 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+
+	section.home_banner
+		.banner
+			img(src="img/home_banner_1.png", alt="")
+		.text_banner
+			h2 Chúng tôi là FullStack Vietnam
+			h5 Reference site about Lorem Ipsum, giving 
+				br 
+				| information on its origins, as well as 
+				br 
+				| a random Lipsum generator.
+
+			
+			
+	section.home_news
+		.container
+			.row
+				.col
+					.title
+						h1 FullStack
+							span chuyên nghiệp
+			.row
+				.col-md-4.item
+					a(href="#" title="")
+						figure
+							.blockimg
+								.conmat
+									i.fa.fa-eye
+								img(src="./img/home_new1.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 17/08/2018
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere distinctio necessitatibus soluta doloremque blanditiis esse commodi aliquam, iure ab rem fugit vel officiis, quas eos nisi ducimus veritatis culpa non!
+				.col-md-4.item
+					a(href="#" title="")
+						figure
+							.blockimg
+								.conmat
+									i.fa.fa-eye
+								img(src="./img/home_new3.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 17/08/2018
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere distinctio necessitatibus soluta doloremque blanditiis esse commodi aliquam, iure ab rem fugit vel officiis, quas eos nisi ducimus veritatis culpa non!
+				.col-md-4.item
+					a(href="#" title="")
+						figure
+							.blockimg
+								.conmat
+									i.fa.fa-eye
+								img(src="./img/home_new2.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 17/08/2018
+								p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere distinctio necessitatibus soluta doloremque blanditiis esse commodi aliquam, iure ab rem fugit vel officiis, quas eos nisi ducimus veritatis culpa non!
+	section.home_brand
+		.container
+			.row
+				.col
+					.brand
+						.owl-carousel.owl-theme
+							.item
+								img(src="img/home_brand_1.png", alt="")
+							.item
+								img(src="img/home_brand_2.png", alt="")
+							.item
+								img(src="img/home_brand_3.png", alt="")
+							.item
+								img(src="img/home_brand_4.png", alt="")
+							.item
+								img(src="img/home_brand_5.png", alt="")
+							.item
+								img(src="img/home_brand_6.png", alt="")
+
